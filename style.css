@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(25, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    margin: 3px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .operations {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: none;
+    margin: 3px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+  }
+
+  .clear-button {
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    margin: 3px;
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  button:active, .operations:active, .clear-button:active {
+    opacity: 80%;
+    }
+
+  .text-display {
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    height: 30px;
+  }
